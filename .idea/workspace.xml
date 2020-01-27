@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d8dad33-e8fa-4396-8e20-bbdf06b13f53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shingeru/msscbeerservice/bootstrap/BeerLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shingeru/msscbeerservice/web/model/BeerStyleEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shingeru/msscbeerservice/web/model/BeerStyleEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mssc-beer-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shingeru/msscbeerservice/web/model/BeerDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shingeru/msscbeerservice/web/model/BeerDto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +103,13 @@
       <option name="MAIN_CLASS_NAME" value="com.shingeru.msscbeerservice.MsscBeerServiceApplicationTests" />
       <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsscBeerServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mssc-beer-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shingeru.msscbeerservice.MsscBeerServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -230,5 +237,9 @@
       <screen x="0" y="27" width="3440" height="1413" />
     </state>
     <state x="2257" y="454" width="636" height="566" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.27.3440.1413/3440.0.1920.1080@0.27.3440.1413" timestamp="1578561136054" />
+    <state x="2237" y="464" width="710" height="538" key="find.popup" timestamp="1580136739662">
+      <screen x="50" y="27" width="3390" height="1413" />
+    </state>
+    <state x="2237" y="464" width="710" height="538" key="find.popup/50.27.3390.1413@50.27.3390.1413" timestamp="1580136739662" />
   </component>
 </project>
