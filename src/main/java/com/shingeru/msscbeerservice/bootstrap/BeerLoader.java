@@ -27,7 +27,7 @@ public class BeerLoader implements CommandLineRunner {
 
             beerRepository.save(Beer.builder()
                     .beerName("Okocim Pszeniczny")
-                    .beerStyle(BeerStyleEnum.WHEAT)
+                    .beerStyle(BeerStyleEnum.WHEAT.toString())
                     .quantityToBrew(200)
                     .upc(337010000000L)
                     .minOnHand(20)
@@ -36,7 +36,7 @@ public class BeerLoader implements CommandLineRunner {
 
             beerRepository.save(Beer.builder()
                     .beerName("Piwo Żywe")
-                    .beerStyle(BeerStyleEnum.RAW)
+                    .beerStyle(BeerStyleEnum.RAW.toString())
                     .quantityToBrew(150)
                     .upc(337010000001L)
                     .minOnHand(15)
@@ -45,7 +45,7 @@ public class BeerLoader implements CommandLineRunner {
 
             beerRepository.save(Beer.builder()
                     .beerName("Belfast")
-                    .beerStyle(BeerStyleEnum.SCOUT)
+                    .beerStyle(BeerStyleEnum.SCOUT.toString())
                     .quantityToBrew(100)
                     .upc(337010000002L)
                     .minOnHand(10)
