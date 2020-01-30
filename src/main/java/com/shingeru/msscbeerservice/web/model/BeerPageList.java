@@ -7,9 +7,12 @@ import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class BeerPageList extends PageImpl<BeerDto> {
+public class BeerPageList extends PageImpl<BeerDto> implements Serializable {
+
+    static final long serialVersionUID = 8455608471166483859L;
 
     public BeerPageList(List<BeerDto> content, Pageable pageable, long total) {
         super(content, pageable, total);
