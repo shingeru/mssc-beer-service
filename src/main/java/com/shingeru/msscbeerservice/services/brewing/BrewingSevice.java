@@ -1,4 +1,4 @@
-package com.shingeru.msscbeerservice.services;
+package com.shingeru.msscbeerservice.services.brewing;
 
 import com.shingeru.msscbeerservice.config.JmsConfig;
 import com.shingeru.msscbeerservice.domain.Beer;
