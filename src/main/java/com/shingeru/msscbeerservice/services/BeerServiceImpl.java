@@ -30,7 +30,7 @@ public class BeerServiceImpl implements BeerService {
 
         System.out.println(">>>>>>>><<<<<<<< not from cache");
 
-        if(showInventoryOnHand) {
+        if (showInventoryOnHand) {
             return beerMapper.beerToBeerDtoWithInventory(
                     beerRepository.findById(beerId).orElseThrow(NotFoundException::new)
             );
@@ -77,7 +77,7 @@ public class BeerServiceImpl implements BeerService {
             beerPage = beerRepository.findAll(pageRequest);
         }
 
-        if( showInventoryOnHand) {
+        if (showInventoryOnHand) {
 
             beerPageList = new BeerPageList(beerPage
                     .getContent()
@@ -101,5 +101,23 @@ public class BeerServiceImpl implements BeerService {
         }
 
         return beerPageList;
+    }
+
+    @Cacheable(cacheNames = "beerUpcCache", condition = "#showInventoryOnHand == false ")
+    @Override
+    public BeerDto getByUpc(String upc, Boolean showInventoryOnHand) {
+
+        System.out.println("UPC >>>>>>>>>>>>>.. not from cache");
+
+        if (showInventoryOnHand) {
+            return beerMapper.beerToBeerDtoWithInventory(
+                    beerRepository.findByUpc(upc).orElseThrow(NotFoundException::new)
+            );
+        } else {
+            return beerMapper.beerToBeerDto(
+                    beerRepository.findByUpc(upc).orElseThrow(NotFoundException::new)
+            );
+        }
+
     }
 }
