@@ -1,9 +1,9 @@
 package com.shingeru.msscbeerservice.web.controller;
 
 import com.shingeru.msscbeerservice.services.BeerService;
-import com.shingeru.msscbeerservice.web.model.BeerDto;
-import com.shingeru.msscbeerservice.web.model.BeerPageList;
-import com.shingeru.msscbeerservice.web.model.BeerStyleEnum;
+import com.shingeru.brewery.model.BeerDto;
+import com.shingeru.brewery.model.BeerPageList;
+import com.shingeru.brewery.model.BeerStyleEnum;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.http.HttpStatus;

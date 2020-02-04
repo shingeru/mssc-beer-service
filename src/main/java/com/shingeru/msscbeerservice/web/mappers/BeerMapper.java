@@ -1,7 +1,7 @@
 package com.shingeru.msscbeerservice.web.mappers;
 
 import com.shingeru.msscbeerservice.domain.Beer;
-import com.shingeru.msscbeerservice.web.model.BeerDto;
+import com.shingeru.brewery.model.BeerDto;
 import org.mapstruct.DecoratedWith;
 import org.mapstruct.Mapper;
 

@@ -1,6 +1,5 @@
 package com.shingeru.msscbeerservice.domain;
 
-import com.shingeru.msscbeerservice.web.model.BeerStyleEnum;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

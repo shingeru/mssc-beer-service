@@ -1,7 +1,7 @@
 package com.shingeru.msscbeerservice.repositories;
 
 import com.shingeru.msscbeerservice.domain.Beer;
-import com.shingeru.msscbeerservice.web.model.BeerStyleEnum;
+import com.shingeru.brewery.model.BeerStyleEnum;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.jpa.repository.JpaRepository;

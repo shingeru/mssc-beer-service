@@ -2,7 +2,7 @@ package com.shingeru.msscbeerservice.services.brewing;
 
 import com.shingeru.msscbeerservice.config.JmsConfig;
 import com.shingeru.msscbeerservice.domain.Beer;
-import com.shingeru.msscbeerservice.events.BrewBeerEvent;
+import com.shingeru.brewery.model.events.BrewBeerEvent;
 import com.shingeru.msscbeerservice.repositories.BeerRepository;
 import com.shingeru.msscbeerservice.services.inventory.BeerInventoryService;
 import com.shingeru.msscbeerservice.web.mappers.BeerMapper;

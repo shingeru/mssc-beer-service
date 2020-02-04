@@ -2,7 +2,7 @@ package com.shingeru.msscbeerservice.web.mappers;
 
 import com.shingeru.msscbeerservice.domain.Beer;
 import com.shingeru.msscbeerservice.services.inventory.BeerInventoryService;
-import com.shingeru.msscbeerservice.web.model.BeerDto;
+import com.shingeru.brewery.model.BeerDto;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class BeerMapperDecorator implements BeerMapper {

@@ -1,8 +1,8 @@
 package com.shingeru.msscbeerservice.services;
 
-import com.shingeru.msscbeerservice.web.model.BeerDto;
-import com.shingeru.msscbeerservice.web.model.BeerPageList;
-import com.shingeru.msscbeerservice.web.model.BeerStyleEnum;
+import com.shingeru.brewery.model.BeerDto;
+import com.shingeru.brewery.model.BeerPageList;
+import com.shingeru.brewery.model.BeerStyleEnum;
 import org.springframework.data.domain.PageRequest;
 
 import java.util.UUID;

@@ -2,12 +2,10 @@ package com.shingeru.msscbeerservice.bootstrap;
 
 import com.shingeru.msscbeerservice.domain.Beer;
 import com.shingeru.msscbeerservice.repositories.BeerRepository;
-import com.shingeru.msscbeerservice.web.model.BeerStyleEnum;
+import com.shingeru.brewery.model.BeerStyleEnum;
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
-import java.util.UUID;
 
 //@Component
 public class BeerLoader implements CommandLineRunner {

@@ -1,6 +1,6 @@
-package com.shingeru.msscbeerservice.events;
+package com.shingeru.brewery.model.events;
 
-import com.shingeru.msscbeerservice.web.model.BeerDto;
+import com.shingeru.brewery.model.BeerDto;
 import lombok.NoArgsConstructor;
 
 @NoArgsConstructor
